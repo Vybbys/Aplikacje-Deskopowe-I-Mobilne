@@ -21,7 +21,11 @@ namespace ConsoleApp1
             Console.WriteLine(@"Predkosc to km\h");
 
             int liczba = 5;
-            double liczba1 = 132.12;
+            double liczba1 = 132.123;
+            
+            int liczebnik = 555;
+            
+ 
 
 
             Person firstPerson = new Person();
