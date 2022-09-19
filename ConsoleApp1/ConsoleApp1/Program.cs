@@ -24,6 +24,13 @@ namespace ConsoleApp1
             double liczba1 = 132.12;
 
 
+            Person firstPerson = new Person();
+
+            firstPerson.showInfo();
+
+      
+
+
         }
     }
 }
