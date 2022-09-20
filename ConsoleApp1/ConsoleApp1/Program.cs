@@ -32,6 +32,22 @@ namespace ConsoleApp1
 
             firstPerson.showInfo();
 
+
+            Person secondPerson = firstPerson;
+
+            secondPerson.showInfo();
+
+            Person thirdPerson = new Person("Ala", "Kowalska", 70);
+
+            thirdPerson.showInfo();
+
+            thirdPerson.SetSurname("Nowak");
+            thirdPerson.showInfo();
+
+            string surname = thirdPerson.GetSurname();
+
+            Console.WriteLine(surname);
+
       
 
 

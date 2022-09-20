@@ -36,5 +36,19 @@ namespace ConsoleApp1
 
         }
 
+        public void SetSurname(string new_surname)
+        {
+            if(new_surname != "")
+            {
+                surname = new_surname;
+            }
+            
+        }
+
+        public string GetSurname()
+        {
+            return surname;
+        }
+
     };
 }
