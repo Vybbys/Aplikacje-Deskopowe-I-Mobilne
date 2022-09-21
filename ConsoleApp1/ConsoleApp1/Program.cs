@@ -45,7 +45,9 @@ namespace ConsoleApp1
             thirdPerson.showInfo();
 
             string surname = thirdPerson.GetSurname();
-
+            thirdPerson.Surname = "Limuzyna";
+            int age = thirdPerson.Age;
+            thirdPerson.showInfo();
             Console.WriteLine(surname);
 
       

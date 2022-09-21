@@ -12,6 +12,41 @@ namespace ConsoleApp1
         private string name, surname;
         private int age;
 
+        public string Name
+        {
+            private set
+            {
+                if (value != "")
+                    name = value;
+            }
+
+            get
+            {
+                return name;
+            }
+        }
+
+        public int Age
+        {
+            get
+            {
+                return age;
+            }
+        }
+
+        public string Surname
+        {
+            set
+            {
+                if (value != "")
+                    surname = value;
+            }
+
+            get
+            {
+                return surname;
+            }
+        }
 
         public Person()
         {
