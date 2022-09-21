@@ -12,6 +12,7 @@ namespace ConsoleApp1
         private string name, surname;
         private int age;
 
+
         public Person()
         {
             name = "Adam";
